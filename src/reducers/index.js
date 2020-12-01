@@ -4,5 +4,5 @@ import visibilityFilter from './visibilityFilter'
 
 export default combineReducers({
   todos: todosReducer,
-  visibilityFilter,
+  visibilityFilter
 })
