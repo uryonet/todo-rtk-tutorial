@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { createSelector } from '@reduxjs/toolkit'
 import { toggleTodo } from 'features/todos/todosSlice'
 import TodoList from './TodoList'
-import { VisibilityFilters } from '../actions'
+import { VisibilityFilters } from '../filters/filtersSlice'
 
 const selectTodos = state => state.todos
 const selectFilter = state => state.visibilityFilter
